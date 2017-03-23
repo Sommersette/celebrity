@@ -6,12 +6,66 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Homework</title>
+    <title>heart</title>
   </head>
   <body>
     <div class="container">
-<!--*-TOP--->
-<!--*-BOTTOM--->
+      <!--*-TOP--->
+      <div class="col-sm-2"></div>
+      <div class=col-sm-8>
+
+          <h1>The Great Celebrity Dating Game</h1>
+          <hr />
+          <form id="user-info">
+            <label for="age">Age</label>
+            <input id="age" type="text">
+<br />
+            <div class="form-group">
+              <label for="gender">Gender Preference</label>
+              <select required="true" class="form-control" id="gender">
+                <option></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <!-- <option value="non">Non-Binary</option>
+                <option value="nope">No preference</option> -->
+              </select>
+            </div>
+
+            <!-- <label for="sign">astrological sign</label>
+            <select required="true" class="form-control" id="sign">
+              <option></option>
+              <option>Aquarius</option>
+              <option>Pisces</option>
+              <option>Aries</option>
+              <option>Taurus</option>
+              <option>Gemini</option>
+              <option>Cancer</option>
+              <option>Leo</option>
+              <option>Virgo</option>
+              <option>Libra</option>
+              <option>Scorpio</option>
+              <option>Sagitarius</option>
+              <option>Capricorn</option>
+            </select> -->
+          </form>
+          <hr />
+
+          <button type="submit" class="btn btn-success">connect me</button>
+
+          <div id="result">
+            <h2>Your Celebrity Love Match is....</h2>
+
+            <p class="animal" id ="person-a">Person A</p>
+            <p class="animal" id ="person-b">Person B</p>
+            <p class="animal" id ="person-c">Person C</p>
+            <p class="animal" id ="person-d">Person D</p>
+            <p class="animal" id ="person-e">Person E</p>
+            <p class="animal" id ="person-f">Person F</p>
+
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
+        <!--*-BOTTOM--->
     </div>
   </body>
 </html>
